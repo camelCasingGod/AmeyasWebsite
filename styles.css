@@ -44,6 +44,7 @@ nav {
     height: 3px;
     background-color: #1b141a;
     margin: 5px;
+    transition: 0.3s ease;
 }
 
 @media screen and (max-width: 800px){
@@ -92,6 +93,18 @@ nav {
         opacity: 1;
         transform: translate(0px);
     }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .container {
