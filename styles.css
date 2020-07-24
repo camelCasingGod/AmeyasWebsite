@@ -35,6 +35,22 @@ nav {
     font-weight: bold;
     font-size: 14px;
 }
+.burger {
+    display: none;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #1b141a;
+    margin: 5px;
+}
+
+@media screen and (max-width: 450px){
+    body{
+        display: none;
+    }
+}
+
 .container {
     height: 100vh;
     display: flex;
