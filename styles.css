@@ -89,8 +89,7 @@ nav {
     left: 50%;
     height: 40px;
     width: 40px;
-    transform: translateY(-80px) translateX(-50%)
-        rotate(45deg);
+    transform: translateY(-80px) translateX(-50%) rotate(45deg);
 }
 
 .scrolldown span {
@@ -103,7 +102,19 @@ nav {
     border-bottom: 2px solid #fff;
     border-right: 2px solid #fff;
     animation: animate 1.5s linear infinite;
-    opacity: 0;
+}
+
+#hidethis { 
+    visibility: hidden;
+    overflow: hidden;
+    animation: css 0s 15.5s forwards;
+}
+  
+@keyframes css { 
+    to { 
+        visibility: visible;
+        overflow: visible;
+    }
 }
 
 .scrolldown span:nth-child(1) {
