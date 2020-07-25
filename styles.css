@@ -15,6 +15,17 @@ nav {
     font-family: 'Poppins', sans-serif;
     z-index: 10;
 }
+
+.puzzleText {
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
 .logo {
     color: #1b141a;
     text-transform: uppercase;
@@ -73,6 +84,12 @@ nav {
     .burger{
         display: block;
     }
+    .puzzleText {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 10rem;
+    }
+
 }
 
 @media screen and (max-width: 1024px){
