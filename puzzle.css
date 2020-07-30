@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background: #1b141a;
+    font-family: 'Montserrat', sans-serif;
+    color: #eee;
+}
+
+.puzzleClueOne {
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    letter-spacing: 1px;
+    line-height: 150%;
+    font-size: 24px;
+}
