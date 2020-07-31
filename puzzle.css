@@ -8,11 +8,29 @@ body {
 
 .puzzleClueOne {
     text-align: center;
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 13rem;
+    padding-bottom: 8rem;
     padding-right: 10rem;
     padding-left: 10rem;
     letter-spacing: 1px;
     line-height: 150%;
     font-size: 24px;
+}
+
+.backButton {
+	background-color:#dd7732;
+	border-radius:17px;
+	display:inline-block;
+	cursor:pointer;
+	color:#1b141a;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+    text-decoration:none;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
 }
